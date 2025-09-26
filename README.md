@@ -139,7 +139,9 @@ $\color{green} \textbf {Final Output: After completing the deployment, you shoul
 
 ![output](https://github.com/Abhi-hengade/Project-Super-Mario/blob/15b632fe5fb501ae3cc67fe03e8d93b46a777964/assets/output.png)
 
-**Delete Infra**
+
+
+
 
 ## 🧹 Cleanup
 
