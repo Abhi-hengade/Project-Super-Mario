@@ -15,7 +15,7 @@ Step 4 → Creation of deployment and service for EKS
 1. Click on launch Instance
    ![instance](https://github.com/Abhi-hengade/Project-Super-Mario/blob/eb44d302be57c75ba43c7703e9d0a9177154394a/assets/instance.png)
 2. Connect to EC2-Instance
-   ![connect-ec2](https://github.com/Abhi-hengade/Project-Super-Mario/blob/80c4bb10b2d2f06abd0412627d0af14f1ef02a16/assets/Screenshot%202025-09-26%20172956.png)
+   ![connect-ec2](https://github.com/Abhi-hengade/Project-Super-Mario/blob/15b632fe5fb501ae3cc67fe03e8d93b46a777964/assets/connect%20instance.png)
 
    
 
@@ -98,7 +98,7 @@ cd EKS-TF
 ````
 vim backend.tf
 ````
-![backend tf](https://github.com/Abhi-hengade/Project-Super-Mario/blob/dbaa684649578aea78bc97024e9e095d27a4a835/assets/Screenshot%202025-09-26%20173803.png)
+![backend tf](https://github.com/Abhi-hengade/Project-Super-Mario/blob/15b632fe5fb501ae3cc67fe03e8d93b46a777964/assets/backend%20file.png)
 
 $\color{blue} \textbf {Create \ Infra:}$
 
@@ -133,13 +133,13 @@ kubectl get svc mario-service
 ````
 copy the load balancer ingress and paste it on browser and your game is running
 
-![load balancer](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/d085951d-3398-44ad-b9cd-05c561b74664)
+![load balancer](https://github.com/Abhi-hengade/Project-Super-Mario/blob/15b632fe5fb501ae3cc67fe03e8d93b46a777964/assets/link.png)
 
 
 
 $\color{green} \textbf {Final Output: Enjoy The Game 🎮}$
 
-![output](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/edfff0b5-6507-48e4-b552-908671b59920)
+![output](https://github.com/Abhi-hengade/Project-Super-Mario/blob/15b632fe5fb501ae3cc67fe03e8d93b46a777964/assets/output.png)
 
 **Delete Infra**
 ````
