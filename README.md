@@ -154,6 +154,6 @@ cd EKS-TF/
 ````
 
 ````
- terraform destroy -auto-approve
+terraform destroy -auto-approve
 ````
 
