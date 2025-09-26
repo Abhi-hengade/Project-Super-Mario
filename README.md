@@ -149,6 +149,7 @@ To remove the deployed infrastructure and avoid ongoing charges:
 terraform destroy -auto-approve
 
 ````
+````
 cd EKS-TF/
 ````
 
