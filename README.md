@@ -119,6 +119,11 @@ vim backend.tf
 ![backend tf](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/6b9e648f-2f13-41e8-a66b-6b6e6e0a63de)
 
 $\color{blue} \textbf {Create \ Infra:}$
+
+````
+aws configure --profile eks
+````
+
 ````
 terraform init
 terraform plan
