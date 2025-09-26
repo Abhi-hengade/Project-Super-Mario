@@ -1,4 +1,4 @@
-# $$\color{green}{\textbf Project: 🎮 \color{red} \textbf {Super} \ \color{orange} \ \textbf Mario  🍄🐢}$$
+# Project-Super-Mario 🎮 
 
 
 ## 🛠️ Project Workflow
