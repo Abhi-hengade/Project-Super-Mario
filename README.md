@@ -135,11 +135,19 @@ copy the load balancer ingress and paste it on browser and your game is running
 
 
 
-$\color{green} \textbf {Final Output: Enjoy The Game 🎮}$
+$\color{green} \textbf {Final Output: After completing the deployment, you should be able to access the Super Mario game via the Load Balancer's URL. Enjoy the game! 🎮}$
 
 ![output](https://github.com/Abhi-hengade/Project-Super-Mario/blob/15b632fe5fb501ae3cc67fe03e8d93b46a777964/assets/output.png)
 
 **Delete Infra**
+
+## 🧹 Cleanup
+
+To remove the deployed infrastructure and avoid ongoing charges:
+
+```bash
+terraform destroy -auto-approve
+
 ````
 cd EKS-TF/
 ````
