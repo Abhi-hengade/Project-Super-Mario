@@ -1,13 +1,11 @@
 # $$\color{green}{\textbf Project: 🎮 \color{red} \textbf {Super} \ \color{orange} \ \textbf Mario  🍄🐢}$$
 
 ##  $\color{blue} \textbf {Project  Workflow}$
-Step 1 → Login and basics setup
-
-Step 2 → Setup Docker ,Terraform ,aws cli , and Kubectl
-
-Step 3 → Building Infrastructure Using terraform
-
-Step 4 → Creation of deployment and service for EKS
+## 🛠️ Project Workflow
+1. Login and Basic Setup
+2. Setup Docker, Terraform, AWS CLI, and kubectl
+3. Build Infrastructure Using Terraform
+4. Create Deployment and Service for EKS
 
 
 
