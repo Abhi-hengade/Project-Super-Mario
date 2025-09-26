@@ -98,7 +98,7 @@ cd EKS-TF
 ````
 vim backend.tf
 ````
-![backend tf](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/6b9e648f-2f13-41e8-a66b-6b6e6e0a63de)
+![backend tf](https://github.com/Abhi-hengade/Project-Super-Mario/blob/dbaa684649578aea78bc97024e9e095d27a4a835/assets/Screenshot%202025-09-26%20173803.png)
 
 $\color{blue} \textbf {Create \ Infra:}$
 
