@@ -13,7 +13,7 @@ spec:
         app: mario
     spec:
       containers:
-      - name: mario-container
-        image: abhipraydh96/super-mario
-        ports:
-        - containerPort: 80
+        - name: mario-container
+          image: abhishek9222/super-mario:latest
+          ports:
+            - containerPort: 80
