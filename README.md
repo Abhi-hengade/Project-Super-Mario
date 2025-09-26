@@ -5,13 +5,9 @@ Step 1 → Login and basics setup
 
 Step 2 → Setup Docker ,Terraform ,aws cli , and Kubectl
 
-Step 3 → IAM Role for EC2
+Step 3 → Building Infrastructure Using terraform
 
-Step 4 →Attach IAM role with your EC2
-
-Step 5 → Building Infrastructure Using terraform
-
-Step 6 → Creation of deployment and service for EKS
+Step 4 → Creation of deployment and service for EKS
 
 
 
@@ -22,7 +18,6 @@ Step 6 → Creation of deployment and service for EKS
    ![connect-ec2](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/9d518e77-6f65-4153-acfc-790a6eaf669a)
 
    
-5. Attach role to ec2 instance
 
 ### $\color{red} \textbf {Step 2 → Setup  Tools}$
 
@@ -88,22 +83,9 @@ mv ./kubectl ~/.local/bin/kubectl
 ````
 kubectl version --client
 ````
-### $\color{red} \textbf {Step 3 → IAM  Role  for  EC2}$
-create role:
-![role](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/31a05c18-f34b-430d-b5cb-c5873ae6e9c5)
 
-### $\color{red} \textbf {Step 4 →Attach  IAM  role  with your  EC2 }$
-go to EC2 
-click on actions → security → modify IAM role option
-- administrator access
-- eks
-![image](https://github.com/user-attachments/assets/c23f9d00-505d-4a0d-b07d-c6b21d419748)
 
-![role-ec2](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/70cc0ebb-6063-4c4b-98df-7259a08749b8)
-
-![modify-role](https://github.com/abhipraydhoble/Project-Super-Mario/assets/122669982/3e998e21-3654-43b0-8df0-496f009ef0a6)
-
-### $\color{red} \textbf {Step 5 → Building Infrastructure  Using  terraform}$
+### $\color{red} \textbf {Step 3 → Building Infrastructure  Using  terraform}$
 $\color{blue} \textbf {Install  GIT}$
 ````
 git clone https://github.com/Abhi-hengade/Project-Super-Mario.git
@@ -134,7 +116,7 @@ terraform apply --auto-approve
 aws eks update-kubeconfig --name EKS_CLOUD --region ap-south-1 --profile eks
 ````
 
-### $\color{red} \textbf {Step 6 → Creation  of  deployment  and service  for  EKS}$
+### $\color{red} \textbf {Step 4 → Creation  of  deployment  and service  for  EKS}$
 change the directory where deployment and service files are stored use the command →
 ````
 cd ..
