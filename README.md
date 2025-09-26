@@ -27,7 +27,7 @@ Step 6 → Creation of deployment and service for EKS
 ### $\color{red} \textbf {Step 2 → Setup  Tools}$
 
 ````
-sudo apt update -y
+sudo yum update -y
 ````
 $\color{blue} \textbf {Setup  Docker:}$
 ````
