@@ -1,6 +1,6 @@
 # $$\color{green}{\textbf Project: 🎮 \color{red} \textbf {Super} \ \color{orange} \ \textbf Mario  🍄🐢}$$
 
-##  $\color{blue} \textbf {Project  Workflow}$
+
 ## 🛠️ Project Workflow
 1. Login and Basic Setup
 2. Setup Docker, Terraform, AWS CLI, and kubectl
