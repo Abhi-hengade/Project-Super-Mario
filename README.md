@@ -131,7 +131,7 @@ terraform apply --auto-approve
 ````
 
 ````
-aws eks update-kubeconfig --name EKS_CLOUD --region ap-southeast-1 --profile eks
+aws eks update-kubeconfig --name EKS_CLOUD --region ap-south-1 --profile eks
 ````
 
 ### $\color{red} \textbf {Step 6 → Creation  of  deployment  and service  for  EKS}$
