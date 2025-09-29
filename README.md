@@ -147,10 +147,7 @@ $\color{green} \textbf {Final Output: After completing the deployment, you shoul
 
 To remove the deployed infrastructure and avoid ongoing charges:
 
-```bash
-terraform destroy -auto-approve
 
-````
 ````
 cd EKS-TF/
 ````
